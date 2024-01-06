@@ -128,7 +128,7 @@ public class FakeChunkStorage extends VersionedChunkStorage {
                     client.submit(() -> client.inGameHud.getChatHud().addMessage(text));
                 });
             }
-            return null;
+            return nbt;
         }
         return nbt;
     }
